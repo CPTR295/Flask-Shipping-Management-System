@@ -1,5 +1,5 @@
 {% macro render_error_flash(class_id)%}
-    {% with errors = get_flashed_messages(category_filter=["errro"]) %}
+    {% with errors = get_flashed_messages(category_filter=["error"]) %}
         {% if errors %}
             <p id="{{class_id}}" class="w-lg-50">
                 {% for msg in errors %}
