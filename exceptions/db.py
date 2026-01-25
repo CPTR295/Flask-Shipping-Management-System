@@ -19,3 +19,21 @@ class DuplicateRecordException(HTTPException):
         resp=Response()
         resp.response = render_template('/error/generic.html',ex_message=self.description)
         return resp
+    
+class EmptyListResultException(HTTPException):
+    code = 500
+    description = 'Empty query result.'
+    
+    def get_response(self, environ=None):
+        resp = Response()
+        resp.response = render_template('error/generic.html', ex_message=self.description)
+        return resp
+    
+class NoRecordException(HTTPException):
+    code = 500
+    description = 'No single record retrieved.'
+    
+    def get_response(self, environ=None):
+        resp = Response()
+        resp.response = render_template('error/generic.html', ex_message=self.description)
+        return resp
