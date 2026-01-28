@@ -36,6 +36,7 @@ def init_request():
         static_expr = re.search('static$',request.endpoint) 
     else:
         static_expr = None
+        
     if((request.endpoint !='login_bp.login_db_auth' and request.endpoint!='home_bp.index' and static_expr == None) and 'username' not in session):
         app.logger.info('A user is not authenticated')
     elif((request.endpoint=='login_bp.login_db_auth' and request.endpoint!='home_bp.index' and static_expr == None) and 'username' in session ):
@@ -54,4 +55,4 @@ def return_response(response):
     return response
 
 if __name__=='__main__':
-    app.run()
+    app.run(debug=True)

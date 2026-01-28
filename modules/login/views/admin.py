@@ -2,7 +2,7 @@ from flask import render_template,request,current_app
 from modules.model.db import Admin
 from modules.login.repository.admin import AdminRepository
 from modules.login.services.login import get_login_id 
-from exceptions.db import DuplicationRecordException
+from exceptions.db import DuplicateRecordException
 from modules.login import login_bp
 
 from modules import db
@@ -16,7 +16,7 @@ def add_admin():
                       lastname=request.form['lastname'],email=request.form['email'],mobile=request.form['mobile']) 
         res = repo.insert(admin=admin)
         if res == False:
-            raise DuplicationRecordException()
+            raise DuplicateRecordException()
         logins = get_login_id(1,db)
         return render_template('admin_details_form.html',logins=logins),200
     

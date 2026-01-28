@@ -1,0 +1,4 @@
+SQLALCHEMY_DATABASE_URI = "postgresql://postgres:Trace%40Postgres235@localhost:5432/smsdb"
+SECRET_KEY = "se4SGPILJqFyDMwWrAFefl_rrdM"
+FLASK_DEBUG = true
+TESTING = true

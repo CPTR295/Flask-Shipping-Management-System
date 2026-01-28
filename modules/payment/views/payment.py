@@ -34,13 +34,19 @@ def add_payment():
         return render_template('add_payment_form.html',orders=orders,ptypes=payts),200
     current_app.logger.info('add_payment Get view')
     repot = PaymentTypeRepository(db) 
+
     payts = repot.select_all() 
-    orders = get_all_orders_no() 
+    
+    orders = get_all_orders_no(db) 
+   
     return render_template('add_payment_form.html',orders=orders,ptypes=payts),200
 
 @payment_bp.route('/payment/list',methods=['GET'])
 def list_payment():
     repo=PaymentRepository(db) 
+    print(1)
     pays = repo.select_all() 
+    print(2)
     flash('List of payments') 
+    print(3)
     return render_template('list_payments.html',payments=pays),200

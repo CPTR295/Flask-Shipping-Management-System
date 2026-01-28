@@ -42,12 +42,20 @@ class LoginRepository:
         return None
 
     def select_all(self) -> List[Any]:
-        users = self.db.session.query(Login).all()
-        return users
+        try:
+            users = self.db.session.query(Login).all()
+            return users
+        except Exception as e:
+            print(e)
+            return None
     
     def select_one_username(self, username:str) -> Any:
-        user =  self.db.session.query(Login).filter(Login.username == username).one_or_none()
-        return user
+        try:
+            user =  self.db.session.query(Login).filter(Login.username == username).one_or_none()
+            return user
+        except Exception as e:
+            print(e)
+            return None
     
     def select_login_id_name(self, utype) -> List[int]:
         ids = self.db.session.query(Login.id, Login.username).filter(Login.user_type == utype).all()

@@ -42,8 +42,8 @@ class PaymentRepository:
         current_app.logger.info('PaymentRepository retrieve one by id')
         return pay
     
-    def select_all(self,id:int)->List[Any] :
-        pay = self.db.session.query(Payment).filter(Payment.id==id).all()
+    def select_all(self)->List[Any] :
+        pay = self.db.session.query(Payment).all()
         current_app.logger.info('PaymentRepository retrieve all')
         return pay
     
@@ -92,7 +92,13 @@ class PaymentTypeRepository:
         current_app.logger.info('PaymentTypeRepository retrieve one by id')
         return pay
     
-    def select_all(self,id:int)->List[Any] :
-        pay = self.db.session.query(PaymentType).filter(PaymentType.id==id).all()
-        current_app.logger.info('PaymentTypeRepository retrieve all')
-        return pay
+    def select_all(self)->List[Any] :
+        try:
+            pay = self.db.session.query(PaymentType).all()
+            current_app.logger.info('PaymentTypeRepository retrieve all')
+            return pay
+        except Exception as e:
+            current_app.logger.info(f'PaymentTypeRepository retrieve error: {e}')
+        return None
+
+        

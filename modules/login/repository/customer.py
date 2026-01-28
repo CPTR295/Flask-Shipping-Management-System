@@ -38,11 +38,13 @@ class CustomerRepository:
         return False 
 
     def select_one(self,id:int)->Any:
-        self.db.session.query(Customer).filter(Customer.id==id).one_or_none()
+        cus = self.db.session.query(Customer).filter(Customer.id==id).one_or_none()
         self.db.session.commit()
         current_app.logger.info('CustomerRepository record retrival')
+        return cus
     
     def select_all(self)->List[Any]:
-        self.db.session.query(Customer).all()
+        cus = self.db.session.query(Customer).all()
         self.db.session.commit()
         current_app.logger.info('CustomerRepository record full retrival')
+        return cus

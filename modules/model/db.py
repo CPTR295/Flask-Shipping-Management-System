@@ -5,7 +5,7 @@ class Login(db.Model):
     id=db.Column(db.Integer,db.Sequence('login_id_seq',increment=1),primary_key=True)
     username  = db.Column(db.String(44))
     password = db.Column(db.String(45))
-    usert_type = db.Column(db.Integer)
+    user_type = db.Column(db.Integer)
 
     admins = db.relationship('Admin',back_populates="login",uselist=False)
     customer = db.relationship('Customer',back_populates="login",uselist=False)
@@ -97,7 +97,7 @@ class Orders(db.Model):
 
     product = db.relationship('Products',back_populates='orders')
     customer = db.relationship('Customer',back_populates='orders')
-    payment = db.relationship('Payment',back_populates='orders',uselist=False)
+    payment = db.relationship('Payment',back_populates='order',uselist=False)
 
     def __init__(self,id,pid,order_no,cid,order_date):
         self.id = id
@@ -110,11 +110,11 @@ class Orders(db.Model):
         return f"<Order {self.id} {self.pid} {self.cid} {self.order_no} {self.order_date}>"
 
 class PaymentType(db.Model):
-    __tablename__ = 'payment_table'
+    __tablename__ = 'payment_type'
     id = db.Column(db.Integer,db.Sequence('payment_type_id_seq',increment=1),primary_key=True)
     name = db.Column(db.String(45),nullable=False)
 
-    payment = db.relationship('Payment',back_populates='payment_type')
+    payment = db.relationship('Payment',back_populates='payment_types')
 
     def __init__(self,id,name):
         self.id = id

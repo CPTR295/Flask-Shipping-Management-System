@@ -7,4 +7,4 @@ def index():
 
 @home_bp.route('/menu',methods=['GET'])
 def menu():
-    render_template('/menu.html'),200
+    return render_template('menu.html'),200

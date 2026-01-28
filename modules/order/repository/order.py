@@ -38,9 +38,13 @@ class OrderRepository:
         return False
     
     def select_all(self)->List[Any]:
-        ords = self.db.session.query(Orders).all()
-        current_app.logger.info('OrderRepository full retrieval')
-        return ords 
+        try:
+            ords = self.db.session.query(Orders).all()
+            current_app.logger.info('OrderRepository full retrieval')
+            return ords 
+        except Exception as e:
+            current_app.logger.info(f'OrderRepository full retrieve error {e}')
+        return None
     
     def select_one(self,id:int)->Any:
         ord = self.db.session.query(Orders).filter(Orders.id == id).one_or_none()

@@ -17,7 +17,7 @@ class AdminRepository:
             current_app.logger.info(f'AdminRepository insert error : {e}')
         return False
 
-    def update(self,id:int,details:Dict[str:Any])->bool :
+    def update(self,id:int,details:Dict[str,Any])->bool :
         try:
             self.db.session.query(Admin).filter(Admin.id==id).update(details)
             self.db.session.commit()

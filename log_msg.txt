@@ -1,0 +1,227 @@
+2026-01-28 16:03:00 INFO login login_db_auth add_db_auth POST view executed
+2026-01-28 16:03:00 INFO main return_response login_bp.login_db_auth done executing
+2026-01-28 16:03:13 INFO main return_response home_bp.menu done executing
+2026-01-28 16:03:29 INFO main return_response None done executing
+2026-01-28 16:03:29 INFO main return_response None done executing
+2026-01-28 16:03:39 INFO main init_request A user is already logged in
+2026-01-28 16:03:39 INFO main return_response login_bp.login_db_auth done executing
+2026-01-28 16:03:39 INFO main return_response home_bp.menu done executing
+2026-01-28 16:03:39 INFO main init_request A user is already logged in
+2026-01-28 16:03:39 INFO main return_response login_bp.login_db_auth done executing
+2026-01-28 16:03:39 INFO main return_response home_bp.menu done executing
+2026-01-28 16:03:42 INFO main return_response home_bp.menu done executing
+2026-01-28 16:04:11 INFO main init_request A user is already logged in
+2026-01-28 16:04:11 INFO main return_response login_bp.login_db_auth done executing
+2026-01-28 16:04:11 INFO main return_response home_bp.menu done executing
+2026-01-28 16:04:11 INFO main return_response login_bp.list_login done executing
+2026-01-28 16:04:12 INFO main return_response login_bp.list_login done executing
+2026-01-28 16:13:14 INFO main init_request A user is not authenticated
+2026-01-28 16:13:14 INFO main return_response None done executing
+2026-01-28 16:13:23 INFO main init_request A user is not authenticated
+2026-01-28 16:13:23 INFO main return_response None done executing
+2026-01-28 16:13:30 INFO login login_db_auth add_db_auth GET view executed
+2026-01-28 16:13:30 INFO main return_response login_bp.login_db_auth done executing
+2026-01-28 16:13:37 INFO login login_db_auth add_db_auth POST view executed
+2026-01-28 16:13:37 INFO main return_response login_bp.login_db_auth done executing
+2026-01-28 16:14:21 INFO main return_response home_bp.menu done executing
+2026-01-28 16:15:38 INFO main return_response home_bp.index done executing
+2026-01-28 16:15:44 INFO main init_request A user is already logged in
+2026-01-28 16:15:44 INFO main return_response login_bp.login_db_auth done executing
+2026-01-28 16:15:44 INFO main return_response home_bp.menu done executing
+2026-01-28 16:15:51 INFO main init_request A user is already logged in
+2026-01-28 16:15:51 INFO main return_response login_bp.login_db_auth done executing
+2026-01-28 16:15:51 INFO main return_response home_bp.menu done executing
+2026-01-28 16:15:53 INFO main init_request A user is already logged in
+2026-01-28 16:15:53 INFO main return_response login_bp.login_db_auth done executing
+2026-01-28 16:15:53 INFO main return_response home_bp.menu done executing
+2026-01-28 16:17:25 INFO main return_response home_bp.menu done executing
+2026-01-28 16:23:33 INFO main return_response home_bp.menu done executing
+2026-01-28 16:24:05 INFO main return_response home_bp.menu done executing
+2026-01-28 16:24:15 INFO main init_request A user is already logged in
+2026-01-28 16:24:15 INFO main return_response login_bp.login_db_auth done executing
+2026-01-28 16:24:15 INFO main return_response home_bp.menu done executing
+2026-01-28 16:24:17 INFO login add_login add_login GET view execution
+2026-01-28 16:24:17 INFO main return_response login_bp.add_login done executing
+2026-01-28 16:24:25 INFO main init_request A user is already logged in
+2026-01-28 16:24:25 INFO main return_response login_bp.login_db_auth done executing
+2026-01-28 16:24:25 INFO main return_response home_bp.menu done executing
+2026-01-28 16:24:26 INFO main return_response login_bp.list_login done executing
+2026-01-28 16:24:26 INFO main return_response login_bp.list_login done executing
+2026-01-28 16:25:52 INFO main init_request A user is already logged in
+2026-01-28 16:25:52 INFO main return_response login_bp.login_db_auth done executing
+2026-01-28 16:25:52 INFO main return_response home_bp.menu done executing
+2026-01-28 16:25:52 INFO login add_login add_login GET view execution
+2026-01-28 16:25:52 INFO main return_response login_bp.add_login done executing
+2026-01-28 16:25:57 INFO main return_response login_bp.list_login done executing
+2026-01-28 16:25:57 INFO main return_response login_bp.list_login done executing
+2026-01-28 16:27:18 INFO main return_response login_bp.list_login done executing
+2026-01-28 16:28:07 INFO main return_response login_bp.list_login done executing
+2026-01-28 16:29:17 INFO main return_response login_bp.list_login done executing
+2026-01-28 16:29:40 INFO main return_response login_bp.list_login done executing
+2026-01-28 16:29:41 INFO main return_response login_bp.list_login done executing
+2026-01-28 16:30:37 INFO main init_request A user is already logged in
+2026-01-28 16:30:37 INFO main return_response login_bp.login_db_auth done executing
+2026-01-28 16:30:37 INFO main return_response home_bp.menu done executing
+2026-01-28 16:30:37 INFO login add_login add_login GET view execution
+2026-01-28 16:30:38 INFO main return_response login_bp.add_login done executing
+2026-01-28 16:30:42 INFO main return_response login_bp.list_login done executing
+2026-01-28 16:30:42 INFO main return_response login_bp.list_login done executing
+2026-01-28 16:31:20 INFO main return_response None done executing
+2026-01-28 16:31:51 INFO main return_response home_bp.menu done executing
+2026-01-28 16:32:43 INFO main return_response home_bp.menu done executing
+2026-01-28 16:35:15 INFO order __init__ OrderRespository instance created
+2026-01-28 16:35:15 INFO order select_all OrderRepository full retrieval
+2026-01-28 16:35:15 INFO main return_response order_bp.list_orders done executing
+2026-01-28 16:35:34 INFO order add_order add_order GET view
+2026-01-28 16:35:34 INFO customer __init__ CustomerRepository instance created
+2026-01-28 16:35:34 INFO customer select_all CustomerRepository record full retrival
+2026-01-28 16:35:34 INFO main return_response order_bp.add_order done executing
+2026-01-28 16:36:43 INFO payment __init__ PaymentRepository instance created
+2026-01-28 16:36:43 INFO main return_response payment_bp.list_payment done executing
+2026-01-28 17:06:50 INFO main return_response home_bp.index done executing
+2026-01-28 17:06:51 INFO main init_request A user is not authenticated
+2026-01-28 17:06:51 INFO main return_response None done executing
+2026-01-28 17:07:02 INFO login login_db_auth add_db_auth GET view executed
+2026-01-28 17:07:02 INFO main return_response login_bp.login_db_auth done executing
+2026-01-28 17:07:10 INFO login login_db_auth add_db_auth POST view executed
+2026-01-28 17:07:10 INFO main return_response login_bp.login_db_auth done executing
+2026-01-28 17:08:34 INFO main return_response home_bp.menu done executing
+2026-01-28 17:08:37 INFO main return_response home_bp.menu done executing
+2026-01-28 17:11:08 INFO main return_response home_bp.menu done executing
+2026-01-28 17:11:46 INFO main return_response home_bp.menu done executing
+2026-01-28 17:14:43 INFO main return_response home_bp.menu done executing
+2026-01-28 17:14:45 INFO main return_response home_bp.menu done executing
+2026-01-28 17:18:24 INFO main return_response home_bp.menu done executing
+2026-01-28 17:18:28 INFO product add_product add_product Get Request
+2026-01-28 17:18:28 INFO main return_response product_bp.add_product done executing
+2026-01-28 17:18:34 INFO customer add_customer add_customer GET View executed
+2026-01-28 17:18:34 INFO main return_response login_bp.add_customer done executing
+2026-01-28 17:18:36 INFO order add_order add_order GET view
+2026-01-28 17:18:36 INFO customer __init__ CustomerRepository instance created
+2026-01-28 17:18:36 INFO customer select_all CustomerRepository record full retrival
+2026-01-28 17:18:36 INFO main return_response order_bp.add_order done executing
+2026-01-28 17:18:41 INFO payment add_payment add_payment Get view
+2026-01-28 17:18:41 INFO payment __init__ PaymentType Repository instance created
+2026-01-28 17:18:41 INFO main return_response payment_bp.add_payment done executing
+2026-01-28 17:19:39 INFO order add_order add_order GET view
+2026-01-28 17:19:39 INFO customer __init__ CustomerRepository instance created
+2026-01-28 17:19:39 INFO customer select_all CustomerRepository record full retrival
+2026-01-28 17:19:39 INFO main return_response order_bp.add_order done executing
+2026-01-28 17:20:35 INFO payment add_payment add_payment Get view
+2026-01-28 17:20:35 INFO payment __init__ PaymentType Repository instance created
+2026-01-28 17:20:35 INFO main return_response payment_bp.add_payment done executing
+2026-01-28 17:21:38 INFO payment add_payment add_payment Get view
+2026-01-28 17:21:38 INFO payment __init__ PaymentType Repository instance created
+2026-01-28 17:21:38 INFO main return_response payment_bp.add_payment done executing
+2026-01-28 17:23:20 INFO payment add_payment add_payment Get view
+2026-01-28 17:23:20 INFO payment __init__ PaymentType Repository instance created
+2026-01-28 17:23:20 INFO main return_response payment_bp.add_payment done executing
+2026-01-28 17:24:07 INFO payment add_payment add_payment Get view
+2026-01-28 17:24:07 INFO payment __init__ PaymentType Repository instance created
+2026-01-28 17:24:07 INFO payment select_all PaymentTypeRepository retrieve all
+2026-01-28 17:24:07 INFO main return_response payment_bp.add_payment done executing
+2026-01-28 17:24:43 INFO payment add_payment add_payment Get view
+2026-01-28 17:24:43 INFO payment __init__ PaymentType Repository instance created
+2026-01-28 17:24:43 INFO payment select_all PaymentTypeRepository retrieve all
+2026-01-28 17:24:43 INFO main return_response payment_bp.add_payment done executing
+2026-01-28 17:26:08 INFO payment add_payment add_payment Get view
+2026-01-28 17:26:08 INFO payment __init__ PaymentType Repository instance created
+2026-01-28 17:26:09 INFO payment select_all PaymentTypeRepository retrieve all
+2026-01-28 17:26:09 INFO main return_response payment_bp.add_payment done executing
+2026-01-28 17:27:49 INFO payment add_payment add_payment Get view
+2026-01-28 17:27:49 INFO payment __init__ PaymentType Repository instance created
+2026-01-28 17:27:49 INFO payment select_all PaymentTypeRepository retrieve all
+2026-01-28 17:27:49 INFO main return_response payment_bp.add_payment done executing
+2026-01-28 17:28:18 INFO payment add_payment add_payment Get view
+2026-01-28 17:28:18 INFO payment __init__ PaymentType Repository instance created
+2026-01-28 17:28:18 INFO payment select_all PaymentTypeRepository retrieve all
+2026-01-28 17:28:18 INFO main return_response payment_bp.add_payment done executing
+2026-01-28 17:28:36 INFO payment add_payment add_payment Get view
+2026-01-28 17:28:36 INFO payment __init__ PaymentType Repository instance created
+2026-01-28 17:28:36 INFO payment select_all PaymentTypeRepository retrieve all
+2026-01-28 17:28:36 INFO main return_response payment_bp.add_payment done executing
+2026-01-28 17:29:27 INFO payment add_payment add_payment Get view
+2026-01-28 17:29:28 INFO payment __init__ PaymentType Repository instance created
+2026-01-28 17:29:28 INFO payment select_all PaymentTypeRepository retrieve all
+2026-01-28 17:29:28 INFO order __init__ OrderRespository instance created
+2026-01-28 17:29:28 INFO order select_all OrderRepository full retrieval
+2026-01-28 17:29:28 INFO main return_response payment_bp.add_payment done executing
+2026-01-28 17:29:50 INFO payment add_payment add_payment Get view
+2026-01-28 17:29:50 INFO payment __init__ PaymentType Repository instance created
+2026-01-28 17:29:50 INFO payment select_all PaymentTypeRepository retrieve all
+2026-01-28 17:29:50 INFO order __init__ OrderRespository instance created
+2026-01-28 17:29:50 INFO order select_all OrderRepository full retrieval
+2026-01-28 17:29:50 INFO main return_response payment_bp.add_payment done executing
+2026-01-28 17:30:46 INFO payment add_payment add_payment Get view
+2026-01-28 17:30:46 INFO payment __init__ PaymentType Repository instance created
+2026-01-28 17:30:46 INFO payment select_all PaymentTypeRepository retrieve all
+2026-01-28 17:30:46 INFO order __init__ OrderRespository instance created
+2026-01-28 17:30:46 INFO order select_all OrderRepository full retrieval
+2026-01-28 17:30:46 INFO main return_response payment_bp.add_payment done executing
+2026-01-28 17:31:07 INFO payment __init__ PaymentRepository instance created
+2026-01-28 17:31:07 INFO main return_response payment_bp.list_payment done executing
+2026-01-28 17:31:29 INFO payment add_payment add_payment Get view
+2026-01-28 17:31:29 INFO payment __init__ PaymentType Repository instance created
+2026-01-28 17:31:29 INFO payment select_all PaymentTypeRepository retrieve all
+2026-01-28 17:31:29 INFO order __init__ OrderRespository instance created
+2026-01-28 17:31:29 INFO order select_all OrderRepository full retrieval
+2026-01-28 17:31:29 INFO main return_response payment_bp.add_payment done executing
+2026-01-28 17:33:11 INFO payment add_payment add_payment Get view
+2026-01-28 17:33:11 INFO payment __init__ PaymentType Repository instance created
+2026-01-28 17:33:11 INFO payment select_all PaymentTypeRepository retrieve all
+2026-01-28 17:33:11 INFO order __init__ OrderRespository instance created
+2026-01-28 17:33:11 INFO order select_all OrderRepository full retrieval
+2026-01-28 17:33:11 INFO main return_response payment_bp.add_payment done executing
+2026-01-28 17:33:23 INFO payment __init__ PaymentRepository instance created
+2026-01-28 17:33:23 INFO main return_response payment_bp.list_payment done executing
+2026-01-28 17:34:18 INFO payment __init__ PaymentRepository instance created
+2026-01-28 17:34:18 INFO main return_response payment_bp.list_payment done executing
+2026-01-28 17:34:25 INFO payment __init__ PaymentRepository instance created
+2026-01-28 17:34:25 INFO main return_response payment_bp.list_payment done executing
+2026-01-28 17:34:42 INFO payment __init__ PaymentRepository instance created
+2026-01-28 17:34:42 INFO main return_response payment_bp.list_payment done executing
+2026-01-28 17:34:59 INFO payment __init__ PaymentRepository instance created
+2026-01-28 17:34:59 INFO main return_response payment_bp.list_payment done executing
+2026-01-28 17:35:49 INFO payment __init__ PaymentRepository instance created
+2026-01-28 17:35:49 INFO payment select_all PaymentRepository retrieve all
+2026-01-28 17:35:49 INFO main return_response payment_bp.list_payment done executing
+2026-01-28 17:37:41 INFO payment __init__ PaymentRepository instance created
+2026-01-28 17:37:41 INFO payment select_all PaymentRepository retrieve all
+2026-01-28 17:37:41 INFO main return_response payment_bp.list_payment done executing
+2026-01-28 17:37:54 INFO main return_response None done executing
+2026-01-28 17:37:56 INFO main return_response home_bp.menu done executing
+2026-01-28 17:37:58 INFO order add_order add_order GET view
+2026-01-28 17:37:58 INFO customer __init__ CustomerRepository instance created
+2026-01-28 17:37:58 INFO customer select_all CustomerRepository record full retrival
+2026-01-28 17:37:58 INFO main return_response order_bp.add_order done executing
+2026-01-28 17:38:00 INFO payment add_payment add_payment Get view
+2026-01-28 17:38:00 INFO payment __init__ PaymentType Repository instance created
+2026-01-28 17:38:00 INFO payment select_all PaymentTypeRepository retrieve all
+2026-01-28 17:38:00 INFO order __init__ OrderRespository instance created
+2026-01-28 17:38:00 INFO order select_all OrderRepository full retrieval
+2026-01-28 17:38:00 INFO main return_response payment_bp.add_payment done executing
+2026-01-28 17:38:17 INFO payment add_payment add_payment post view
+2026-01-28 17:38:17 INFO main return_response payment_bp.add_payment done executing
+2026-01-28 17:38:22 INFO main return_response home_bp.menu done executing
+2026-01-28 17:38:46 INFO order add_order add_order GET view
+2026-01-28 17:38:46 INFO customer __init__ CustomerRepository instance created
+2026-01-28 17:38:46 INFO customer select_all CustomerRepository record full retrival
+2026-01-28 17:38:46 INFO main return_response order_bp.add_order done executing
+2026-01-28 17:39:32 INFO order add_order add_order GET view
+2026-01-28 17:39:32 INFO customer __init__ CustomerRepository instance created
+2026-01-28 17:39:32 INFO customer select_all CustomerRepository record full retrival
+2026-01-28 17:39:32 INFO main return_response order_bp.add_order done executing
+2026-01-28 17:40:17 INFO order add_order add_order GET view
+2026-01-28 17:40:17 INFO customer __init__ CustomerRepository instance created
+2026-01-28 17:40:18 INFO customer select_all CustomerRepository record full retrival
+2026-01-28 17:40:18 INFO main return_response order_bp.add_order done executing
+2026-01-28 17:41:01 INFO order add_order add_order GET view
+2026-01-28 17:41:01 INFO customer __init__ CustomerRepository instance created
+2026-01-28 17:41:01 INFO customer select_all CustomerRepository record full retrival
+2026-01-28 17:41:01 INFO product __init__ ProductRepository instance created
+2026-01-28 17:41:01 INFO product select_all ProductRepository full retrieval
+2026-01-28 17:41:01 INFO main return_response order_bp.add_order done executing
+2026-01-28 17:41:12 INFO order add_order add_order POST view
+2026-01-28 17:41:12 INFO order __init__ OrderRespository instance created
+2026-01-28 17:41:12 INFO main return_response order_bp.add_order done executing
+2026-01-28 17:41:13 INFO main return_response home_bp.menu done executing

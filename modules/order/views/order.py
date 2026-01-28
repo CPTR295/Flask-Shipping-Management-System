@@ -8,7 +8,7 @@ from modules.order import order_bp
 from modules import db
 from exceptions.db import DatabaseException 
 
-@order_bp.route('/orders/add',methods=['GET',['POST']])
+@order_bp.route('/orders/add',methods=['GET','POST'])
 def add_order():
     if request.method == 'POST':
         current_app.logger.info('add_order POST view')
@@ -23,11 +23,14 @@ def add_order():
         return render_template('add_order_form.html',customers=customers,products=products),200
     
     current_app.logger.info('add_order GET view')
+    print(1)
     customers = get_all_cid(db=db)
+    print(2)
     products = get_all_pid(db)
+    print(3)
     return render_template('add_order_form.html',customers=customers,products=products)
 
-@order_bp.route('/orders/list',method=['GET'])
+@order_bp.route('/orders/list',methods=['GET'])
 def list_orders():
     repo = OrderRepository(db)
     orders = repo.select_all()

@@ -13,7 +13,7 @@
             <div class="row mb-5">
                 <div class="col-md-8 col-xl-6 text-center mx-auto">
                     <h2 class="display-4">Supply Management System Menu</h2>
-                    <p class="w-lg-50"><strong><em>{{session['username']}}</em></strong> is logged in</p>
+                    <p class="w-lg-50"><strong><em>{{ session['username'] }}</em></strong> is logged in</p>
                 </div>
             </div>
             <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3">
@@ -27,7 +27,7 @@
                 <div class="col">
                     <div class="d-flex p-3">
                         <div class="px-2 text-center">
-                            <h5 class="mb-0 mt-1"><a href="{{url_for('customer_bp.add_order')}}">Add Customer</a></h5>
+                            <h5 class="mb-0 mt-1"><a href="{{url_for('login_bp.add_customer')}}">Add Customer</a></h5>
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
                 <div class="col">
                     <div class="d-flex p-3">
                         <div class="px-2 text-center">
-                            <h5 class="mb-0 mt-1"><a href="{{url_for('payment_bp.add_order')}}">Add Payment</a></h5>
+                            <h5 class="mb-0 mt-1"><a href="{{url_for('payment_bp.add_payment')}}">Add Payment</a></h5>
                         </div>
                     </div>
                 </div>
@@ -94,7 +94,7 @@
                 <div class="col">
                     <div class="d-flex p-3">
                         <div class="px-2 text-center">
-                            <h5 class="mb-0 mt-1"><a href="{{url_for(login_bp.logout)}}">Logout</a></h5>
+                            <h5 class="mb-0 mt-1"><a href="{{url_for('login_bp.logout')}}">Logout</a></h5>
                         </div>
                     </div>
                 </div>
